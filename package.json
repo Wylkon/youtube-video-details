@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Wylkon/youtube-search-channel/issues"
   },
-  "homepage": "https://github.com/Wylkon/youtube-search-channel"
+  "homepage": "https://github.com/Wylkon/youtube-search-channel",
+  "dependencies": {
+    "axios": "^0.7.0"
+  }
 }
