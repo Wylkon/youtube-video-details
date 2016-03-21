@@ -1,0 +1,24 @@
+{
+  "name": "youtube-search-channel",
+  "version": "1.0.0",
+  "description": "Search youtube channels",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wylkon/youtube-search-channel.git"
+  },
+  "keywords": [
+    "youtube",
+    "search",
+    "channel"
+  ],
+  "author": "Wylkon Cardoso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wylkon/youtube-search-channel/issues"
+  },
+  "homepage": "https://github.com/Wylkon/youtube-search-channel"
+}
