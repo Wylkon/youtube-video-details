@@ -3,8 +3,8 @@ var axios = require('axios');
 var ROOT_URL = 'https://www.googleapis.com/youtube/v3/videos';
 
 module.exports = function (options, callback) {
-  if (!options.key) {
-    throw new Error('Youtube Search expected key, received undefined');
+  if (!options.id) {
+    throw new Error('Youtube Video expected id, received undefined');
   }
 
   var params = {
