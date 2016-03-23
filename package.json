@@ -1,26 +1,26 @@
 {
-  "name": "youtube-search-channel",
-  "version": "1.0.1",
-  "description": "Search youtube channels",
+  "name": "youtube-video-details",
+  "version": "1.0.0",
+  "description": "Search youtube video details",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Wylkon/youtube-search-channel.git"
+    "url": "https://github.com/Wylkon/youtube-video-details.git"
   },
   "keywords": [
     "youtube",
-    "search",
-    "channel"
+    "video",
+    "details"
   ],
   "author": "Wylkon Cardoso",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Wylkon/youtube-search-channel/issues"
+    "url": "https://github.com/Wylkon/youtube-video-details/issues"
   },
-  "homepage": "https://github.com/Wylkon/youtube-search-channel",
+  "homepage": "https://github.com/Wylkon/youtube-video-details",
   "dependencies": {
     "axios": "^0.7.0"
   }
