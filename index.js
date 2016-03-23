@@ -3,13 +3,14 @@ var axios = require('axios');
 var ROOT_URL = 'https://www.googleapis.com/youtube/v3/videos';
 
 module.exports = function (options, callback) {
-  if (!options.id) {
-    throw new Error('Youtube Video expected id, received undefined');
+  if (!options.key) {
+    throw new Error('Youtube Video Destails expected key, received undefined');
   }
 
   var params = {
     part: 'snippet',
-    id: options.id
+    key: options.key,
+    id: options.id,
   };
 
   axios.get(ROOT_URL, { params: params })
